@@ -15,26 +15,31 @@ La aplicación ofrece funcionalidades como la consulta, creación, modificación
   npm install
 ```
 
-4. Ejecuta el servidor local usando el comando:
+5. Ejecuta la migración de la base de datos usando el comando:
+
+````bash
+  npm run migrate
+
+6. Ejecuta el servidor local usando el comando:
 
 ```bash
   npm run dev
-```
+````
 
-5. Dirígete a la carpeta en donde se encuentra el frontend del proyecto.
-6. Instala todas las dependencias de node mediante el comando:
+7. Dirígete a la carpeta en donde se encuentra el frontend del proyecto.
+8. Instala todas las dependencias de node mediante el comando:
 
 ```bash
   npm install
 ```
 
-7. Ejecuta el servidor local usando el comando:
+9. Ejecuta el servidor local usando el comando:
 
 ```bash
   npm run dev
 ```
 
-8. Ingresa al enlace del servidor local en el navegador de tu preferencia como se muestra a continuación:
+10. Ingresa al enlace del servidor local en el navegador de tu preferencia como se muestra a continuación:
 
 ![App Screenshot](assets/xampp_mysql.png)
 
