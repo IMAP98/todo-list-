@@ -17,14 +17,15 @@ La aplicación ofrece funcionalidades como la consulta, creación, modificación
 
 5. Ejecuta la migración de la base de datos usando el comando:
 
-````bash
+```bash
   npm run migrate
+```
 
 6. Ejecuta el servidor local usando el comando:
 
 ```bash
   npm run dev
-````
+```
 
 7. Dirígete a la carpeta en donde se encuentra el frontend del proyecto.
 8. Instala todas las dependencias de node mediante el comando:
