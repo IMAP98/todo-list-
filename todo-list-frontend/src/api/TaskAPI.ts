@@ -51,7 +51,6 @@ type UpdateTaskFormData = {
 export const updateTask = async ({ formData, id }: UpdateTaskFormData) => {
     try {
         const url = `/tasks/${id}`;
-        console.log(`/tasks/${id}`);
         const { data } = await api.put<string>(url, formData);
         return data;
     } catch (error) {
@@ -65,7 +64,6 @@ export const deleteTask = async (id: Task["tasks_id"]) => {
     try {
         const url = `/tasks/${id}`;
         const { data } = await api.delete<string>(url);
-        console.log(`/tasks/${id}`);
         return data;
     } catch (error) {
         if (isAxiosError(error) && error.response) {
